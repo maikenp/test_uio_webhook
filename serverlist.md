@@ -1,8 +1,5 @@
-|FQDN                                    | Type     |Location |Vlan     | ESS               |Contact-External                                                                |Contact-FI         |OS                  | EOL    |              
-|:---------------------------------------|:---------|:----|:-----------|:-------------------|:-------------------------------------------------------------------------------|:-------------------|:-------------------|:-------------------|
-|admin.abel.uio.no                       |          |PHY  |OJD-1688    |880/3331            |hpc-logs                                                                        |bhm                 |yes                 |                    |
-|admin.norstore.uio.no                   |          |VM   |ESX-HPC     |599                 |norstore support                                                                |Thierry             |                    |                    |
-|amoc.hpc.uio.no                         |yes       |PHY  |OJD-1677    |880                 |drift@cicero.uio.no; cc Kjell - Cicero                                          |Appnode grp         |yes                 |                    |
-|arcgiis.grid.uio.no                     |          |VM   |ESX-HPC     |                    |grid-support                                                                    |Maiken              |                    |                    |
-|bateson.hpc.uio.no                      |yes       |PHY  |OJD         |880/3331            |Jukka Corander (jukka.corander@medisin.uio.no)                                  |Appnode grp         |                    |<a href=https://www.usit.uio.no/om/organisasjon/itf/intern-doc/github/appnode-team/HPC/bateson.hpc>bateson.hpc</a>|
-|benchmark01.hpc.uio.no                  |yes       |PHY  |OJD-1688    |880/3331            |hossein.yazdi@bmkgenetics.com             
+|FQDN | Type  |Location |Vlan  | ESS  |Contact-External |Contact-FI  |OS     | EOL    |              
+|:----|:------|:--------|:-----|:-----|:----------------|:-----------|:------|:-------|
+|admin.abel.uio.no   | PHY  |OJD-1688    |880/3331   | No | bhm |                 |RHEL 8          |               |
+|arcgiis.grid.uio.no | PHY  |OJD-1688    |880/3331   | No | bhm |                 |RHEL 8          |               |
+|bateson.hpc.uio.no | PHY  |OJD-1688    |880/3331    | No | bhm |                 |RHEL 8          |               |
